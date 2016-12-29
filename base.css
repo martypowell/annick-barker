@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Fanwood+Text|Quattrocento+Sans);
+.clear {
+  clear: both;
+}
+
+.home-container .section p, .home-container .section a, .home-container .section li {
+  font-size: 20px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+body {
+  padding: 0 0 40px;
+  margin: 0;
+  background: white;
+}
+
+h1, h2, h3 {
+  color: #004358;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+}
+
+p, a, li {
+  font-family: serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p, li {
+  color: #004358;
+}
+
+a {
+  color: #004358;
+}
+
+.home-container .section h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.home-container .list {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.section-wide {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.home-container {
+  display: flex;
+  flex-wrap: none;
+  justify-content: space-around;
+}
+
+.main-content {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+.main-content a {
+  color: #004358;
+  font-weight: 700;
+}
+
+.hero {
+  background: #004358;
+  
+}
+.hero .container {
+  display: flex;
+  flex-wrap: none;
+  justify-content: center;
+  padding: 20px;
+}
+.hero p {
+  color: white;
+  font-size: 36px;
+  line-height: 48px;
+}
+.hero .callout {
+  color: #c09f80;
+}
+.hero .img {
+  max-width: 50%;
+}
+.hero img {
+  width: 100%;
+}
+.hero .message {
+  padding: 40px;
+}
+
+.header {
+  background: #004358;
+    border-top: 5px solid white;
+    padding: 10px 0 0;
+    margin-bottom: 10px;
+}
+.header h1, .header h2, .header a {
+  color: white;
+}
+.header h1, .header h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+  padding: 0;
+}
+.main-nav a {
+  border-bottom: 3px solid #555;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0;
+  width: 25%;
+  text-align: center;
+}
+.main-nav a.active, .main-nav a:hover{
+  border-bottom: 3px solid rgb(92, 131, 47);
+}
+.main-nav .nav-item {
+  display: inline-block;
+}
+.paragraph-callout, .section-callout {
+  font-weight: 900;
+}
+.section-callout, .section-callout a {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 20px;
+}
+.underline {
+  text-decoration: underline;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+h2 a {
+  font-size: inherit;
+  font-weight: normal !important;
+}
+h2 a:hover {
+  text-decoration: none;
+}
+.alert {
+    background: rgb(92, 131, 47);
+    border-radius: 0;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px 0 10px;
+}
+.alert:hover {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  .float-right, .float-left {
+    float: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero p {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .hero .img {
+    display: none;
+  }
+  .main-nav, .hero {
+    display: block;
+    text-align: center;
+  }
+  .home-container {
+    display: block;
+  }
+  .main-nav a {
+    width: 45%;
+  }
+  .home-container .section {
+    margin-bottom: 20px;
+  }
+  .home-container
+}
