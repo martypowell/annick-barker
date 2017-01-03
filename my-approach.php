@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>My Approach | Annick Barker, LCSW-C Therapy and Counseling</title>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="base.css" crossorigin="anonymous">
-	</head>
-	<body>
+<?php include 'functions.php';
+	ShowHeader('My Approach', 'my-approach');
+	ShowNav(); //Show navigation
+?>
 		<div class="container">
-			<div class="header">
-				<h2 class="float-left"><a href="/">Annick Barker, LCSW-C | Therapy and Counseling</a></h2>
-				<h2 class="float-right"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:443-961-7950">443-961-7950</a></h2>
-				<div class="clear"></div>
-			</div>
-			<nav class="main-nav">
-				<a class="nav-item" href="/why-therapy.html">Why Therapy</a>
-				<a class="nav-item active" href="/my-approach.html">My Approach</a>
-				<a class="nav-item" href="/getting-started.html">Getting Started</a>
-				<a class="nav-item" href="/services-fees.html">Services & Fees</a>
-				<a class="nav-item" href="/about-me.html">About Me</a>
-				<a class="nav-item" href="/contact.html">Contact</a>
-			</nav>
 			<div class="main-content">
 				<div class="section why">
 					<h1>My Approach</h1>
@@ -53,5 +26,4 @@
 				</div>
 			</div>
 		</div>
-	</body>
-</html>
+		<?php include 'footer.php'; ?>
