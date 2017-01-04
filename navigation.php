@@ -16,8 +16,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <h2><a href="/">Annick Barker, LCSW-C</a></h2>
-	  <a class="block" href="/">Therapy & Counseling</a>
+      <h2 class="site-title"><a href="/">Annick Barker, LCSW-C</a></h2>
+	  <a class="block site-subtitle" href="/">Therapy & Counseling</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">

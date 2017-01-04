@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3 {
   color: #004358;
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: Georgia, serif;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 }
 
 p, a, li {
-  font-family: serif;
+  font-family: Arial, sans-serif;
   font-size: 18px;
   line-height: 26px;
 }
@@ -44,11 +44,15 @@ a {
   color: #004358;
 }
 
+.section h2 {
+  margin-top: 30px;
+}
 .home-container .section h2 {
   margin: 0;
   margin-bottom: 10px;
   font-size: 36px;
 }
+
 
 .home-container .list {
   margin: 0;
@@ -76,7 +80,9 @@ a {
   color: #004358;
   font-weight: 700;
 }
-
+.site-title a {
+  font-family: Georgia, serif;
+}
 .hero {
   background: #004358;
 }
@@ -108,6 +114,9 @@ a {
 }
 .hero .message {
   padding: 20px 40px 40px;
+}
+.hero .message {
+  font-family: Georgia, serif;
 }
 .hero .alert {
   display: inline-block;
@@ -146,12 +155,7 @@ a {
 .main-nav a.active {
   color: rgb(92, 131, 47);
 }
-nav a.callout {
-  background: rgb(92, 131, 47);
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .main-nav a.active, .main-nav a:hover{
   
 }
@@ -212,12 +216,29 @@ h2 a:hover {
   color: rgb(92, 131, 47);
 }
 footer {
-  padding-top: 40px;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 40px;
+}
+nav a.callout, .navbar-default .navbar-nav>li>a.callout:hover {
+  background: rgb(92, 131, 47);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .contact-info {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
 }
 @media screen and (max-width: 900px) {
   .float-right, .float-left {
@@ -238,6 +259,9 @@ footer {
 
 }
 @media screen and (max-width: 600px) {
+  .navbar-header {
+    padding-bottom: 10px;
+  }
   .hero p {
     font-size: 22px;
     line-height: 26px;
@@ -259,4 +283,18 @@ footer {
     margin-bottom: 20px;
   }
   .home-container
+}
+@media screen and (max-width: 440px) {
+  .site-title {
+    font-size: 1.8em;
+    
+  }
+  .header h2, .header .site-subtitle {
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .site-title {
+    font-size: 1.5em;
+  }
 }
