@@ -20,7 +20,7 @@
 					</ul>
 				</div>
 				<div class="col-sm-7 hidden-xs home-img">
-					<img style="width: 100%" src="img/yellow-flower.jpg" />
+					<img style="width: 100%" src="img/home-page-medium.jpg" />
 				</div>
 			</div>
 		</div>

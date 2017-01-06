@@ -1,6 +1,6 @@
 <div class="hero">
 	<div class="container">
-		<div class="img"><img src="//martypowell.com/img/annick.jpg" /></div>
+		<div class="img"><img src="img/annick-crop.jpg" /></div>
 		<div class="hero-content">
 			<p class="message">Personalized, effective and creative counseling when you need a little extra help.</p>
 			<!-- <a class="alert" href="/contact.html">Contact me for a free 30 minute consultation.</a> -->

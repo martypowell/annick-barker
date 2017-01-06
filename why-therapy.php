@@ -7,6 +7,7 @@
 				<div class="section why">
 					<h1>Why Therapy</h1>
 					<p class="section-callout">When all is well, people usually rely on support from family, friends and co-workers to help them get through hard times.</p>
+					<img class="section-img portrait" src="img/why-therapy-small.jpg" />
 					<p>But there are times when those supporters are unavailable, busy, or too close to the problem themselves to help. Sometimes usual supporters are the source of distress. And sometimes you’re feeling poorly enough or the challenge is great enough that you just need a little extra help.</p>
 					<h2>What is Therapy For?</h2>
 					<p>Therapy is a way to supplement the support system you already have. Meeting with a skillful therapist who is there just for you is one of the best gifts you can give yourself.</p>

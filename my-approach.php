@@ -5,9 +5,13 @@
 		<div class="container">
 			<div class="main-content">
 				<div class="section why">
-					<h1>My Approach</h1>
-					<p class="section-callout">I offer <a href="#personalized">personalized</a>, <a href="#effective">effective</a>, and <a href="#creative">creative</a> counseling and therapy to adults, 18 years and older.</p>
+
+					<div class="section-title-container">
+						<h1>My Approach</h1>
+						<p class="section-callout">I offer <a href="#personalized">personalized</a>, <a href="#effective">effective</a>, and <a href="	#creative">creative</a> counseling and therapy to adults, 18 years and older.</p>
+					</div>
 					<h2 id="personalized">Personalized</h2>
+					<img class="section-img" src="img/my-approach-small.jpg" />
 					<p>The best approach in therapy is the approach that works for you. You know yourself better than anyone else – but during stressful times it’s easy to lose your bearings and feel at sea. It’s not uncommon for a person to come to therapy without a clear sense of their goals – they just know that something needs to change. When you come to see me, we’ll start wherever you are and help you get back to feeling like yourself again.</p>
 					<h2 id="effective">Effective</h2>
 					<p>I draw on several approaches to therapy, all of which have been shown to reduce stress and help people gain clarity and make changes in their lives. They include:</p>

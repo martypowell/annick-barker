@@ -2,7 +2,9 @@
 .clear {
   clear: both;
 }
-
+* {
+  box-sizing: border-box;
+}
 .home-container .section p, .home-container .section a, .home-container .section li {
   font-size: 20px;
 }
@@ -18,7 +20,7 @@
 body {
   padding: 0 0 40px;
   margin: 0;
-  background: white;
+  background: #f2f2f2;
 }
 
 h1, h2, h3 {
@@ -64,7 +66,39 @@ a {
   max-width: 1200px;
   margin: 20px auto 40px;
 }
-
+.section-img {
+  max-width: 400px;
+  width: 100%;
+  float: right;
+  padding: 0 0 20px 20px;
+}
+.section-img.portrait {
+  max-width: 300px;
+}
+/*.section-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    z-index: -1;
+}
+.section-title-container {
+    margin-top: 165px;
+    color: white;
+    background: rgba(0, 67, 88, 0.9);
+    padding: 1px 15px;
+}
+.main-content .section-title-container a, 
+.section-title-container h1,
+.section-title-container p {
+  color: white;
+}
+.main-content .section-title-container a {
+  text-decoration: underline;
+}*/
 .home-container {
   display: flex;
   flex-wrap: none;
@@ -127,6 +161,8 @@ a {
   background: #004358;
     padding: 10px 0 10px;
     margin-bottom: 10px;
+    z-index: 99;
+    position: relative;
 }
 .header h1, .header h2, .header a {
   color: white;
@@ -266,8 +302,21 @@ nav a.callout, .navbar-default .navbar-nav>li>a.callout:hover {
     font-size: 22px;
     line-height: 26px;
   }
+  .hero .container {
+    display: block;
+    text-align: center;
+  }
+  .hero .message {
+    padding: 10px;
+  }
+  .hero p, .hero a {
+    font-size: 20px;
+  }
   .hero .img {
-    display: none;
+   max-width: 175px;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
   }
   .main-nav, .hero {
     display: block;
@@ -282,16 +331,19 @@ nav a.callout, .navbar-default .navbar-nav>li>a.callout:hover {
   .home-container .section {
     margin-bottom: 20px;
   }
-  .home-container
+  .section-img {
+    display: none;
+  }
+  .header h2, .header .site-subtitle {
+    padding-left: 10px;
+  }
 }
 @media screen and (max-width: 440px) {
   .site-title {
     font-size: 1.8em;
     
   }
-  .header h2, .header .site-subtitle {
-    padding-left: 5px;
-  }
+  
 }
 @media screen and (max-width: 360px) {
   .site-title {
